@@ -2,23 +2,14 @@ package io.github.shixinzia.mineralgenerator;
 
 import java.io.File;
 
-import io.github.shixinzia.mineralgenerator.categories.Groups;
-import io.github.shixinzia.mineralgenerator.items.materials.Materials;
-
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPluginLoader;
 
 import io.github.mooy1.infinitylib.core.AbstractAddon;
 import io.github.mooy1.infinitylib.metrics.bukkit.Metrics;
 import io.github.mooy1.infinitylib.metrics.charts.SimplePie;
+import io.github.shixinzia.mineralgenerator.categories.Groups;
+import io.github.shixinzia.mineralgenerator.items.materials.Materials;
 
 
 public final class Mineralgenerator extends AbstractAddon {

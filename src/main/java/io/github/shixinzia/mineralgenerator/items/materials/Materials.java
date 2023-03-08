@@ -1,21 +1,14 @@
 package io.github.shixinzia.mineralgenerator.items.materials;
 
-import java.util.Arrays;
-
-import io.github.shixinzia.mineralgenerator.categories.Groups;
-
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-
-import lombok.experimental.UtilityClass;
-
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.shixinzia.mineralgenerator.Mineralgenerator;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.shixinzia.mineralgenerator.categories.Groups;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
+import lombok.experimental.UtilityClass;
 
 @UtilityClass
 public final class Materials {
